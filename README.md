@@ -23,11 +23,13 @@ consumir.
 
 # API endpoints
 
+
 ```
 GET /aluno
 Codes 200
 ```
 Retorna todos os alunos
+
 
 ```
 GET /aluno/{id}
@@ -35,11 +37,13 @@ Codes 200 / 404
 ```
 Retorna os dados de um aluno
 
+
 ```
 POST /aluno
 Codes 201 / 400
 ```
 Adiciona um novo aluno
+
 
 ```
 PUT /aluno/{id}
@@ -47,11 +51,13 @@ Codes 200 / 400
 ```
 Atualiza os dados de um aluno
 
+
 ```
 DELETE /aluno/{id}
 Codes 204 / 400
 ```
 Apaga o registro de um aluno
+
 
 # Entrega
 A aplicação deve possuir um script para geração das tabelas no banco de dados.
